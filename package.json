@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "ari-client": "^2.2.0",
+    "aws-sdk": "^2.1509.0",
+    "custom-env": "^2.0.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "mv": "^2.1.1",
+    "mysql": "^2.18.1",
+    "prelude-ls": "^1.2.1",
+    "uglify-js": "^3.17.4",
+    "zeromq": "^5.3.1"
+  },
+  "scripts": {
+    "start": "node ./dist/pbx_main_dev.js",
+    "dev": "node pbx_main_dev.js",
+    "build": "node minify.js"
+  },
+  "devDependencies": {
+    "copyfiles": "^2.4.1",
+    "terser": "^5.25.0"
+  }
+}

@@ -1,0 +1,1 @@
+var Event=require("../events"),cfg=require("../../../pbx_config"),pbx_logger=require("../logger/pbx_logger.js"),logger=new pbx_logger;function HangUpState(e){this.state_name="hangup",this.enter=function(){logger.log("IMP",e.channel.id,"hangup_state","Entering user_detail state: "+this.state_name),e.hangupTime=(new Date).getTime()}}module.exports=HangUpState;
